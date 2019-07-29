@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">Film dan Serial TV</string>
+    <string name="tab_text_1">Film</string>
+    <string name="tab_text_2">Serial TV</string>
+    <string name="download">Unduh</string>
+    <string name="change_language_settings">Ganti Pengaturan Bahasa</string>
+
+
+    <string-array name="data_movie">
+        <!--movie-->
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avenger Infinity</item>
+        <item>BirdBox</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed II</item>
+        <item>Deadpool</item>
+        <item>How to Train Your Dragon</item>
+        <item>DragonBall</item>
+        <item>Glass</item>
+        <item>Hunter Killer</item>
+        <!--serial tv-->
+        <item>Friends Season 1</item>
+        <item>Friends Season 2</item>
+        <item>Friends Season 3</item>
+        <item>Friends Season 4</item>
+        <item>Friends Season 5</item>
+        <item>Friends Season 6</item>
+        <item>Friends Season 7</item>
+        <item>Friends Season 8</item>
+        <item>Friends Season 9</item>
+        <item>Friends Season 10</item>
+    </string-array>
+    <string-array name="data_description">
+        <!--movie-->
+        <item>Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos.</item>
+        <item>Five years after an ominous unseen presence drives most of society to suicide, a mother and her two children make a desperate bid to reach safety.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred</item>
+        <item>Between personal obligations and training for his next big fight against an opponent with ties to his family\'s past, Adonis Creed is up against the challenge of his life.</item>
+        <item>Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy\'s life.</item>
+        <item>When Hiccup discovers Toothless isn\'t the only Night Fury, he must seek \"The Hidden World\", a secret Dragon Utopia before a hired tyrant named Grimmel finds it first.</item>
+        <item>The young warrior Son Goku sets out on a quest, racing against time and the vengeful King Piccolo, to collect a set of seven magical orbs that will grant their wielder unlimited power.</item>
+        <item>Security guard David Dunn uses his supernatural abilities to track Kevin Wendell Crumb, a disturbed man who has twenty-four personalities.</item>
+        <item>An untested American submarine captain teams with U.S. Navy Seals to rescue the Russian president, who has been kidnapped by a rogue general.</item>
+        <!--serial tv-->
+        <item>The first season introduces the six main characters: Rachel, Monica, Phoebe, Joey, Chandler, and Ross. Rachel arrives at Central Perk after leaving her fiancé Barry standing at the altar. She moves into an apartment with her high school friend Monica.</item>
+        <item>Rachel waits for Ross at the airport, unaware he has a new girlfriend. Meanwhile, Chandler has a frightening experience with Joey\'s tailor, and Phoebe gives Monica a bad haircut.</item>
+        <item>Monica suffers from insomnia and depression following her breakup with Richard. Joey struggles to accept Chandler and Janice\'s relationship. Ross confides in Rachel about one of his fantasies.</item>
+        <item>Ross chooses between Rachel and his bald-headed girlfriend Bonnie; Joey, Chandler, and Monica have a perilous encounter with a jellyfish at the beach.</item>
+        <item>A humiliated Emily runs away after Ross says Rachel\'s name at the altar. Meanwhile, Chandler and Monica struggle to get time alone together.</item>
+        <item>Ross and Rachel deal with the aftermath of their drunken escapade. Phoebe and Joey take a road trip back to New York in Phoebe\'s grandmother\'s cab. Monica and Chandler ponder the idea of marriage.</item>
+        <item>The gang celebrate Monica and Chandler\'s engagement, however Ross and Rachel upstage them by briefly reuniting. Joey tries to dress and act like a nineteen-year-old for an audition.</item>
+        <item>The gang learns that Rachel is pregnant; Joey tries to impress a Broadway director who\'s dating Chandler\'s mom; Chandler\'s shoes make it hard for him to dance.</item>
+        <item>Rachel thinks that Joey has proposed to her. Monica and Chandler begin trying to have a baby.</item>
+        <item>Joey and Ross both attempt to come clean to each other that they\'re dating Rachel and Charlie. Phoebe finds out Mike has another girlfriend.</item>
+
+    </string-array>
+    <array name="data_photo">
+        <!--movie-->
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/poster_deadpool</item>
+        <item>@drawable/poster_dragon</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_glass</item>
+        <item>@drawable/poster_hunterkiller</item>
+        <!--serial tv-->
+        <item>@drawable/friends1</item>
+        <item>@drawable/friends2</item>
+        <item>@drawable/friends3</item>
+        <item>@drawable/friends4</item>
+        <item>@drawable/friends5</item>
+        <item>@drawable/friends6</item>
+        <item>@drawable/friends7</item>
+        <item>@drawable/friends8</item>
+        <item>@drawable/friends9</item>
+        <item>@drawable/friends10</item>
+    </array>
+    <string-array name="is_movie">
+        <!--movie-->
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <!--serial tv-->
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </string-array>
+</resources>
