@@ -1,4 +1,4 @@
-package com.example.coba;
+package com.example.coba.Activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -8,8 +8,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.coba.Object.Movie;
+import com.example.coba.R;
 
-public class detail extends AppCompatActivity implements View.OnClickListener {
+
+public class DetailActivity extends AppCompatActivity implements View.OnClickListener {
 
     public static final String Extra_Movie = "extra_movie";
 
@@ -47,7 +50,7 @@ public class detail extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onClick(View v) {
         Movie selectedMovie = getIntent().getParcelableExtra(Extra_Movie);
-        Toast.makeText(detail.this,"Download " + selectedMovie.getTitle(),Toast.LENGTH_SHORT).show();
+        Toast.makeText(DetailActivity.this,getString(R.string.download) + " " + selectedMovie.getTitle(),Toast.LENGTH_SHORT).show();
     }
 
 

@@ -1,4 +1,4 @@
-package com.example.coba;
+package com.example.coba.Adapter;
 
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;

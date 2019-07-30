@@ -1,22 +1,20 @@
-package com.example.coba;
+package com.example.coba.Adapter;
 
 import android.content.Context;
 import android.content.Intent;
-import android.media.Image;
 import android.support.annotation.NonNull;
-import android.support.v4.app.Fragment;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import org.w3c.dom.Text;
+import com.example.coba.Activity.DetailActivity;
+import com.example.coba.Object.Movie;
+import com.example.coba.R;
 
 import java.util.List;
-import java.util.zip.Inflater;
 
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder> {
     Context mContext;
@@ -48,9 +46,9 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent x = new Intent(v.getContext(), detail.class);
+                Intent x = new Intent(v.getContext(), DetailActivity.class);
                 //mengirimkan data yang dipilih dengan identitas Extra_Movie
-                x.putExtra(detail.Extra_Movie, mDataMovie.get(i));
+                x.putExtra(DetailActivity.Extra_Movie, mDataMovie.get(i));
                 v.getContext().startActivity(x);
             }
         });

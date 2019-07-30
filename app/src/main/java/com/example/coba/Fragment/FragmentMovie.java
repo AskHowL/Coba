@@ -1,6 +1,5 @@
-package com.example.coba;
+package com.example.coba.Fragment;
 
-import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -11,12 +10,14 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
+
+import com.example.coba.Object.Movie;
+import com.example.coba.R;
+import com.example.coba.Adapter.RecyclerViewAdapter;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class FragmentTV extends Fragment {
+public class FragmentMovie extends Fragment {
 
     View v;
     private RecyclerView rvMovie;
@@ -26,7 +27,7 @@ public class FragmentTV extends Fragment {
     private TypedArray data_photo;
     private String[] data_is_movie;
 
-    public FragmentTV() {
+    public FragmentMovie() {
     }
 
     @Override
@@ -40,7 +41,7 @@ public class FragmentTV extends Fragment {
 
         mDataMovie = new ArrayList<>();
         for (int i = 0; i < data_title.length; i++) {
-            if (data_is_movie[i].equals("0") ){
+            if (data_is_movie[i].equals("1") ){
                 Movie movie = new Movie(data_title[i], data_description[i], data_photo.getResourceId(i, -1), data_is_movie[i]);
                 movie.setTitle(data_title[i]);
                 movie.setDesc(data_description[i]);
@@ -54,8 +55,8 @@ public class FragmentTV extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        v = inflater.inflate(R.layout.fragment_tv,container,false);
-        rvMovie = (RecyclerView) v.findViewById(R.id.recyclertv_id);
+        v = inflater.inflate(R.layout.fragment_movie,container,false);
+        rvMovie = (RecyclerView) v.findViewById(R.id.recyclermovie_id);
         RecyclerViewAdapter rvAdapter = new RecyclerViewAdapter(getContext(),mDataMovie);
         rvMovie.setLayoutManager(new LinearLayoutManager(getActivity()));
         rvMovie.setAdapter(rvAdapter);

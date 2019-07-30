@@ -1,4 +1,4 @@
-package com.example.coba;
+package com.example.coba.Activity;
 
 import android.content.Intent;
 import android.provider.Settings;
@@ -8,7 +8,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.TableLayout;
+
+import com.example.coba.Fragment.FragmentMovie;
+import com.example.coba.Fragment.FragmentTV;
+import com.example.coba.Object.Movie;
+import com.example.coba.R;
+import com.example.coba.Adapter.ViewPagerAdapter;
 
 import java.util.ArrayList;
 
